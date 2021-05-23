@@ -1,0 +1,84 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.todo {
+    background: teal;
+}
+
+.doing {
+    background: lightgoldenrodyellow;
+}
+
+.done {
+    background: #81b214;;
+}
+
+h1 {
+    border-bottom: 1px double;
+    margin: auto;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    width: 35%;
+}
+
+input {
+    margin-bottom: 30px;
+}
+
+button {
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+a:visited {
+    color: brown;
+}
+
+.addTask {
+    border-radius: 10px;
+}
+
+.addTask:hover {
+    color: green;
+}
+
+table {
+    margin: auto;
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+}
+
+li {
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.lastList {
+    border-bottom: 5px solid rgba(0, 0, 0, 0.377);
+}
+
+li:nth-child(odd) {
+    background: darkgrey;
+}
+
+.todoRow {
+    background: #52665e;
+}
+
+.doingRow {
+    background: #f3bda1;
+}
+
+.doneRow {
+    background: lightsalmon; 
+}
+
+#completed {
+    text-decoration: line-through;
+}
